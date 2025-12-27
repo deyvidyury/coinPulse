@@ -1,9 +1,9 @@
 'use client';
 
 import React from 'react'
-import Link from "next/dist/client/link";
-import {Image} from "next/dist/client/image-component";
-import {usePathname} from "next/dist/client/components/navigation";
+import Link from "next/link";
+import Image from "next/image";
+import {usePathname} from "next/navigation";
 import {cn} from "@/lib/utils";
 
 const Header = () => {
